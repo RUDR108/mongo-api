@@ -1,7 +1,7 @@
 var mongoose=require('mongoose');
 
 //user model
-var User = mongoose.model('User',{
+var User = mongoose.model('Users',{
     email:{
         type:String,
         trim:true,
